@@ -24,7 +24,7 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(A0,INPUT); 
 
-  attachInterrupt(digitalPinTo,beat(),FALLING);
+  attachInterrupt(digitalPinTo,beat,FALLING);
 
   Serial.begin(9600)
 }
